@@ -1,0 +1,32 @@
+.banner-header {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    margin: 12px;
+    border-bottom: 1px solid #cddcd3;
+
+    img {
+        width: 70px;
+        height: 70px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-left: 1rem;
+        font-weight: bold;
+    }
+
+    a {
+        margin-left: 11%;
+        text-decoration: none;
+        color: #1b5e20;
+        font-size: 15px;
+
+        &:hover {
+            color: #cbd4cb;
+        }
+
+    }
+}
