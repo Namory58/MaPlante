@@ -1,0 +1,6 @@
+<div class="card-plant">
+    <img [src]="listsplantItems.cover" alt="{{listsplantItems.name}}">
+    <h4>{{listsplantItems.name}}</h4>
+    <app-care-scale [type]="'water'" [value]=listsplantItems.water></app-care-scale>
+    <app-care-scale [type]="'light'" [value]=listsplantItems.light></app-care-scale>
+</div>

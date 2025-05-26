@@ -1,0 +1,14 @@
+<div class="logo">
+@for (i of rang; track i) {
+  @if (value >= i && type === 'water') {
+    <span >
+      <img src="assets/water.svg" alt="water" class="leaf" />
+    </span>
+  } @else if (value >= i && type === 'light') {
+    <span >
+      <img src="assets/sun.svg" alt="sun" class="leaf" />
+    </span>
+  }
+}
+
+</div>

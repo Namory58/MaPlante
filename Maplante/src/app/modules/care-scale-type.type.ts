@@ -1,0 +1,1 @@
+export type CareScaleType = 'light'|'water';

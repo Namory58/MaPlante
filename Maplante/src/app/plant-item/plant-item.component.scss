@@ -1,0 +1,19 @@
+.card-plant {
+    flex-direction: column;
+    width: 100%;
+
+    img {
+        height: 260px;
+        width: 260px;
+        border-radius: 25px;
+        margin: 0 auto;
+        padding: 14px;
+    }
+
+    h4 {
+        font-size: 15px;
+        text-align: left;
+        margin: 0 auto;
+        padding: 0 10px;
+    }
+}

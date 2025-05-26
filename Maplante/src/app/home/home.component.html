@@ -1,1 +1,5 @@
-<p>home works!</p>
+<div class="header">
+    @for (plant of plantItems; track plant.id) {
+  <app-plant-item [listsplantItems]="plant"></app-plant-item>
+}
+</div>
