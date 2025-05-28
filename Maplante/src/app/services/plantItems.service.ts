@@ -24,4 +24,7 @@ export class PlantItemsService {
     getPlantItems(): PlantItem[] {
         return this.listPlantes;
     }
+    getPlantItemById(id: string): PlantItem | undefined {
+        return this.listPlantes.find(plant => plant.id === id);
+    }
 }
